@@ -1,0 +1,16 @@
+[]
+INSERT INTO eigenaars (eigenaar, bijnaam) VALUES ("Mark Dackus","Chief");
+[]
+INSERT INTO eigenaars (eigenaar, bijnaam) VALUES ("Wie nu nog","Geen idee");
+[]
+DELETE FROM eigenaars WHERE eigenaar = "Wie nu nog";
+[]
+SELECT * from eigenaars WHERE eigenaar = "Jan Keuzedeel";
+[(9, 'Jan Keuzedeel', 'kfkfkf')]
+UPDATE eigenaars SET eigenaar = "Jan" , bijnaam = "Keuzedeel" WHERE eigenaar = "Jan Keuzedeel";
+INSERT INTO eigenaars (eigenaar, bijnaam) VALUES ("Harold Smith","Harry");
+[]
+SELECT eigenaar, bijnaam FROM eigenaars
+SELECT eigenaar, bijnaam FROM eigenaars
+SELECT eigenaar, bijnaam FROM eigenaars
+SELECT eigenaar, bijnaam FROM eigenaars
