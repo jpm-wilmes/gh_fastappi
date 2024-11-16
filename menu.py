@@ -2,6 +2,8 @@
 # extra support for clearing screen prior to obtaining dbase data
 import os
 
+
+
 # load support for mysql
 import mysql.connector
 
